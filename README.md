@@ -1,6 +1,6 @@
 # kinder-diffusion-policy
 
-A fork of [diffusion_policy](https://github.com/real-stanford/diffusion_policy) adapted for the [KinDER](https://prpl.group/kinder-site/).
+A fork of [diffusion_policy](https://github.com/real-stanford/diffusion_policy) adapted for the [KinDER](https://prpl-group.com/kinder-site/).
 
 ---
 
@@ -44,7 +44,7 @@ $ conda env create -f conda_environment.yaml
 
 ### Step 1: Prepare Data
 
-Follow the [README for KinDER](https://github.com/Princeton-Robot-Planning-and-Learning/prpl-mono/blob/main/kinder-imitation-learning/README.md)
+Follow the [README for KinDER Imitation Learning Baselines](https://github.com/Princeton-Robot-Planning-and-Learning/kinder-baselines/blob/main/kinder-imitation-learning/README.md)
 
 ---
 
@@ -70,4 +70,4 @@ python policy_server.py --ckpt-path $Checkpoint_path
 
 ### Step 2: Launch the KinDER environment
 
-Follow the [README for KinDER](https://github.com/Princeton-Robot-Planning-and-Learning/prpl-mono/blob/main/kinder-imitation-learning/README.md)
+Follow the [README for KinDER](https://github.com/Princeton-Robot-Planning-and-Learning/kinder-baselines/blob/main/kinder-imitation-learning/README.md)
